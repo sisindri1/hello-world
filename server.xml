@@ -1,0 +1,9 @@
+<Connector port="8081" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               maxThreads="400"
+               Server=" "
+               Secure="true"
+               redirectPort="8443"
+                acceptorThreadCount="2"
+                minSpareThreads="20"
+                acceptCount="200"/>

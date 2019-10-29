@@ -1,0 +1,13 @@
+which type of licence used in windows-----  slmgr -dli
+192.168.0.247 shared network folder
+wmic bios get serialnumber ------- for serial number of cpu
+wmic csproduct get vendor, version  ---version
+wmic computersystem get model,name,manufacturer,systemtype
+certmgr.msc ----for certificatons
+
+msinfo32
+
+
+
+
+

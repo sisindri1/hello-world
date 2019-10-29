@@ -1,0 +1,29 @@
+21/5/19:
+
+NFS:
+1.portmap                               imp conf files
+2.nfs                                    /etc/exports
+3.mountd                                 /etc/fstab and /etc/sysconfig/nfs
+4.showmount -e
+5.exports -avur
+
+Booting:
+1.emergemcy mode----------- systemd.unit=emergency.target
+2.rescue mode ------------- systemd.unit=rescue.target
+
+PAM {pluggable authentication modules}
+/etc/pam.d
+/etc/pam.conf
+/etc/pam.d/passwd
+/etc/security/opasswd
+
+
+192.168.0.246
+username:vts
+password:vts
+993-ssl
+465-ssl
+imap.one.com
+send.one.com
+inbox
+

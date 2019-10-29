@@ -1,0 +1,93 @@
+monitor serial number -
+
+.\get-monitor-detals.ps1
+tomcat apache path
+http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.42/bin/apache-tomcat-8.5.42.tar.gz
+
+
+install guestaditios in virtualbox----------
+https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/
+
+
+
+
+*************************************************************
+how to reback from update in linux .that is how to downgrade to old verson
+ yum history list all
+ yum history info id
+ yum history undo id
+ previosuly in rhel 5/ centos 5
+ yum downgrade  package name
+ 
+ 
+ *****************************************************************
+ u limit functionality
+ cat /proc/sys/fs/fs-max
+ ulimit -a 
+ ulimit -n ---display no of open files limit
+ ulimit -Hn ---hard limt for no of ope files for loged inuser
+ ulimit -Sn ---soft limit
+ sysctl -w fs.file-max=10000 for temporary ----to inrease no of open files
+ vi /etc/sysctl.conf -----to increase  no of open files permanet.---itis for system wide
+ but for user level we use---
+ vi /etc/security/limits.conf
+ sysctl -p to commit chnages without reboot
+ 
+ 
+ ***********************************************
+ remove buffer cache/memory cache for page 
+to clear page cache
+#sync; echo 1 >/proc/sys/vm/drop_caches-------- # sysctl -w vm.drop_caches=1
+ to clear dentries (drectory cache) and inodes run
+ #sync; echo 2 > /proc/sys/vm/drop_caches   ------ # sysctl -w vm.drop_caches=2
+ to clear page cache,dentries and indoes run
+ #sync; echo 3 > /proc/sys/vm/drop_caches ------ # sysctl -w vm.drop_caches=3
+ 
+*********************************************************************************
+
+find mac address 
+
+ip a
+
+ cat /sys/class/net/*/address
+ 
+ *****************************************
+ Firewalld
+ 
+  firewall-cmd --zone=public --add-port=5000/tcp
+   firewall-cmd --zone=public --add-service=https
+
+*******************************************************************
+progress of copy
+
+yum install ncurses-devel
+git clone  https://github.com/Xfennec/progress.git
+
+cd progress
+make 
+sudo make install
+
+https://www.tecmint.com/setup-local-http-yum-repository-on-centos-7/
+
+
+**************************************
+http://www.linux-pam.org/Linux-PAM-html/Linux-PAM_SAG.html ----pam modules
+
+
+************************************************************************
+NFS--------
+
+nfs version ---rpcinfo -p ipaddress
+vi /etc/exports
+exportfs -avr
+exportfs  -auv
+vi /usr/lib/etab and vi /usr/lib/rmtab
+add firewall
+
+--------
+on client side
+showmount -e ipaddress
+create dir
+mount -t nfs4 ipaddress:/dir /directory
+
+

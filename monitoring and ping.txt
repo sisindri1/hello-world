@@ -1,0 +1,17 @@
+monitoring commands:
+top--- it is used to display all real time runnin process like cpu usage,memory usage,swap memorypi.
+htop----user friendly interface to manage process,shortcut keys,vertical and horizon
+tal view of the process.
+iotop---it is used to find exact process and high speed disk read/writes of process.
+monit--free and opensource utitlity that automatically monitors and managers system process,programs,files,directories
+permissions,checksums and filesystems.
+
+ping type errors:
+
+destination host is unreachable:
+route to destination host cant be found.u might need to examine routing information on local host is correctly configured.local  
+host is not configyed correctly with default gateway.
+Requested time out:
+your host did not recive echo reply from destination within time period.due to netwok connectivity problem.increase the wait time by ping -w
+Ping request could not find host:
+ping was unable to find ipaddress form provided hostname.check for hostname is correct or ot.

@@ -1,0 +1,51 @@
+192.168.110.
+inst1
+shutdown -8015
+connector -8181
+ajp port -8019
+
+tomcat1
+
+shutdown -8025
+connector -8180
+ajp port -8029
+
+620701010050127
+UBIN0562076
+
+
+ed: nagios-plugins-all-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:48 Installed: nrpe-3.2.1-8.el7.x86_64
+y'x
+ed: nagios-plugins-all-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:48 Installed: nrpe-3.2.1-8.el7.x86_64
+ed: nagios-plugins-all-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:48 Installed: nrpe-3.2.1-8.el7.x86_64
+l 22 23:04:39 Installed: nagios-plugins-pgsql-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:40 Installed: samba-client-4.8.3-4.el7.x86_64
+Jul 22 23:04:40 Installed: nagios-plugins-disk_smb-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:43 Installed: lm_sensors-3.4.0-6.20160601gitf9185e5.el7.x86_64
+Jul 22 23:04:43 Installed: nagios-plugins-sensors-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:43 Installed: qstat-2.11-13.20080912svn311.el7.x86_64
+Jul 22 23:04:43 Installed: nagios-plugins-game-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:45 Installed: autogen-libopts-5.18-5.el7.x86_64
+Jul 22 23:04:46 Installed: ntp-4.2.6p5-28.el7.centos.x86_64
+Jul 22 23:04:46 Installed: nagios-plugins-ntp-perl-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:46 Installed: fping-3.10-4.el7.x86_64
+Jul 22 23:04:46 Installed: nagios-plugins-fping-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:47 Installed: 1:net-snmp-utils-5.7.2-37.el7.x86_64
+Jul 22 23:04:47 Installed: nagios-plugins-snmp-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:47 Installed: nagios-plugins-all-2.2.1-16.20180725git3429dad.el7.x86_64
+Jul 22 23:04:48 Installed: nrpe-3.2.1-8.el7.x86_64
+E492: Not an editor command: .,.+2204:48 Installed: nrpe-3.2.1-8.el7.x86_64
+
+
+
+
+top
+htop
+free -m
+commvault status
+df -h
+vi /etc/fstab
+less

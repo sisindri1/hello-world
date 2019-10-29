@@ -1,0 +1,29 @@
+In chrome your connection is not private:
+
+1.modify date and time 
+2.remove ssl certificate in internet properties
+3.continue to advanced and unsafe mode
+4.use chrome://flags/ and enable ssl certificates
+5.clear browsing data
+
+
+
+
+In chrome your site cant be reached.
+
+1.change your ipv4 dns address
+   type cmd ncpa.cpl or open netowrk and sharing center and lan conection>properties>ipv4 address>dns address>8.8.8.8 and 8.8.4.4
+2.update your network adapter driver automatically or manually.
+3.restart the dns client service
+4.reset tcp/ip
+	1.enter into command prompt
+	2.ifconfig/release
+	3.ifconfig/all
+	4.ifconfig/flushdns
+	5.ifconfig/renew
+	6.netsh int ip set dns
+	7.netsh winsock reset
+	8.reboot 
+5.get help with a vpn(virtual private network)
+6.reset chrome setings------------->chrome://flags and set all to default
+7.reinstall chrome

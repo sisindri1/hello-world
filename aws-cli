@@ -1,0 +1,5 @@
+aws cli installtion in windows
+ install python and pip in windows
+ pip 3.7 
+ get-pip
+ add path to environmental variables------- C:\Python37\Scripts

@@ -1,0 +1,22 @@
+BSOD -Blue screen of dead error in windows:
+
+1.Blue screens are generally caused by problems with your computer’s hardware or issues with its hardware driver software.
+ Sometimes, they can be caused by issues with low-level software running in the Windows kernel. Regular apps usually won’t
+ be able to cause blue screens.
+2.When a blue screen occurs, Windows automatically creates a “minidump” file that contains information about the crash and
+ saves it to your disk. You can view information about these minidumps to help identify the cause of the blue screen. 
+3.This information is also available in the Windows Event Viewer, where blue screen messages are scattered among application crashes and other system log messages.
+
+Troubleshooting BSOD'S:
+
+ you can troubleshoot blue-screen information using the Action Center.
+in windwos 7-systems and security
+windows 8 and 10 -security and maintainence
+ other troubleshooting methods:
+1.system restore -u can create a new restore point or automaticaly restore points are crated
+2.scan for malware
+3.install updated drivers
+4.boot into safe mode-press f8 or f4
+5.check for hardware problems
+6.reinstall windows
+

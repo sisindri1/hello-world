@@ -1,0 +1,52 @@
+which services are running on linux------
+
+systemctl |grep service
+systemctl list-units --type service
+systemctl list-unit-files
+************************************************
+
+set java path in linux------ for single user
+vi ~/.bash_profile------
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64
+export PATH=$JAVA_HOME/bin:$PATH
+
+ for multiple users
+ 
+Step-1 gedit /etc/profile
+
+Step-2  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+
+Step-3 export PATH=$PATH:$JAVA_HOME/bin
+
+java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64
+jre-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64
+*/***********************************************
+systemctl daemon-reload for tomcat
+ enable host  manger in tomcat---
+ /opt/tomcat/tomcat1/webapps/host-manager/META-INF/content.xml for add ip  and after that we are able to access host manger in tomcat
+
+<Context privileged=”true” antiResourceLocking=”false” docBase=”${catalina.home}/webapps/manager”>
+<Valve className=”org.apache.catalina.valves.RemoteAddrValve” allow=”^.*$” /></Context>
+**********************************
+last command status success or not ---- echo $?
+*******************
+
+haveged use---
+
+
+#!/bin/sh
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86
+export PATH=$PATH:$JAVA_HOME/bin
+~
+**********************************
+rebuild rpm db---------
+cd /var/lib
+rm __db*
+rpm --rebuilddb
+rpmdb_verify Packages
+
+***********************************
+
+
+
+

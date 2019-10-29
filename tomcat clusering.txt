@@ -1,0 +1,4 @@
+tomcat clustering:
+
+1.Apache httpd with mod_jk or mod_proxy for load balancing (mod_jk is most useful for clustering)
+

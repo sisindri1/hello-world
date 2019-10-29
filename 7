@@ -1,0 +1,15 @@
+ap eprocurement site issues
+
+
+24/058/2019
+site down time    16:46:12  
+site uptime       8:05 pm 
+
+
+
+sleep 1m
+echo "tomcat1 deployment is started"
+cd /deployment/app
+cp -r app.war /opt/tomcat1/webapps
+cd /opt/service
+./startup-tomcat1.sh

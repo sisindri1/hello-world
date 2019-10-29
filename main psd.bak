@@ -1,0 +1,19 @@
+[ERROR] [2019-08-21 12:14:42.094] [LoginDAOImpl] - java.lang.ArrayIndexOutOfBoundsException: 1
+
+1. Backup - How, Where, When and What data we backup. How to restore from backup
+
+2. Servers - List of all servers, functions
+
+3. Network Layout - Network map, IP Schema Layout, Internet Provider(s) and speeds
+
+4. Telephones - PBX Systems, All phone numbers for each location, Telephone Service provider(s)
+
+5. Active Directory - New employee procedures, terminated employee procedures
+
+6. Vendors - All vendors we have working relationships with
+
+7. Recycling - Recycling procedures, how to delete data
+
+8. IT Support - How end users submit request for help, how it is handled by IT Deparment (Spice works help desk of course!)
+
+9. HIPPA HiTech - All HIPPA HiTech Info (Currently working on HIPPA HiTech documentation as well)

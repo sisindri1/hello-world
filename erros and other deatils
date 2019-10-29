@@ -1,0 +1,32 @@
+Aug 21, 2019 5:31:11 AM com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement close
+WARNING: SQLServerCallableStatement:123774: Error (ignored) closing PreparedHandle:0
+com.microsoft.sqlserver.jdbc.SQLServerException: Socket closed
+
+Filesystem                Size  Used Avail Use% Mounted on
+/dev/mapper/rhel-root     485G  129G  357G  27% /
+devtmpfs                  126G     0  126G   0% /dev
+tmpfs                     126G   84K  126G   1% /dev/shm
+tmpfs                     126G  1.8G  125G   2% /run
+tmpfs                     126G     0  126G   0% /sys/fs/cgroup
+/dev/sda2                 280M  140M  141M  50% /boot
+/dev/sda1                 286M  9.5M  277M   4% /boot/efi
+/dev/mapper/rhel-var      100G  628M  100G   1% /var
+/dev/mapper/rhel-home     500G   37M  500G   1% /home
+tmpfs                      26G   16K   26G   1% /run/user/42
+10.10.15.52:/appdata      3.0T  2.8T  229G  93% /appdata
+10.10.15.52:/icici        400G   24G  377G   6% /icici
+10.10.15.52:/auctiondata  400G   24G  377G   6% /auctiondata
+tmpfs                      26G     0   26G   0% /run/user/502
+tmpfs                      26G     0   26G   0% /run/user/0
+
+
+server port :8080,8181
+
+Username
+nagiosadmin
+Password
+nagios
+Full Name
+admin
+Email Address
+sisindri.m@vupadhi.com

@@ -1,0 +1,122 @@
+df -h
+--------------
+/dev/sde1            2048  2147479551  1073738752    7  HPFS/NTFS/exFAT
+WARNING: fdisk GPT support is currently new, and therefore in an experimental phase. Use at your own discretion.
+
+Disk /dev/sdf: 3298.5 GB, 3298534883328 bytes, 6442450944 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1           63   6442450910      3T  Microsoft basic primary
+Partition 1 does not start on physical sector boundary.
+
+Disk /dev/sdg: 805 MB, 805306368 bytes, 1572864 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+
+
+Disk /dev/sdh: 1099.5 GB, 1099511627776 bytes, 2147483648 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: dos
+Disk identifier: 0xd3df9e60
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdh1            2048  2147479551  1073738752    7  HPFS/NTFS/exFAT
+
+Disk /dev/mapper/rhel-root: 440.2 GB, 440234147840 bytes, 859832320 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 262144 bytes / 524288 bytes
+
+
+Disk /dev/mapper/rhel-swap: 17.2 GB, 17175674880 bytes, 33546240 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 262144 bytes / 524288 bytes
+
+WARNING: fdisk GPT support is currently new, and therefore in an experimental phase. Use at your own discretion.
+
+Disk /dev/sdi: 3298.5 GB, 3298534883328 bytes, 6442450944 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1           63   6442450910      3T  Microsoft basic primary
+Partition 1 does not start on physical sector boundary.
+
+Disk /dev/sdj: 805 MB, 805306368 bytes, 1572864 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+
+
+Disk /dev/sdk: 1099.5 GB, 1099511627776 bytes, 2147483648 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: dos
+Disk identifier: 0xd3df9e60
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdk1            2048  2147479551  1073738752    7  HPFS/NTFS/exFAT
+WARNING: fdisk GPT support is currently new, and therefore in an experimental phase. Use at your own discretion.
+
+Disk /dev/sdl: 3298.5 GB, 3298534883328 bytes, 6442450944 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1           63   6442450910      3T  Microsoft basic primary
+Partition 1 does not start on physical sector boundary.
+
+Disk /dev/sdm: 805 MB, 805306368 bytes, 1572864 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+
+
+Disk /dev/sdn: 1099.5 GB, 1099511627776 bytes, 2147483648 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+Disk label type: dos
+Disk identifier: 0xd3df9e60
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdn1            2048  2147479551  1073738752    7  HPFS/NTFS/exFAT
+
+Disk /dev/mapper/rhel-var: 214.7 GB, 214744170496 bytes, 419422208 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 262144 bytes / 524288 bytes
+
+
+Disk /dev/mapper/rhel-home: 472.4 GB, 472446402560 bytes, 922746880 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 262144 bytes / 524288 bytes
+
+
+Disk /dev/mapper/auctiondata-lv_auctiondata: 1099.5 GB, 1099490656256 bytes, 2147442688 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes
+
+
+Disk /dev/mapper/appvg-applv: 3298.5 GB, 3298513911808 bytes, 6442409984 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 16384 bytes / 16777216 bytes

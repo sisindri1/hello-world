@@ -1,0 +1,25 @@
+
+##### vi /usr/local/nagios/etc/objects/contacts.cfg
+
+define contact{
+        contact_name                    sisindri                        
+        use                             generic-contact
+        alias                           Admin
+        service_notification_period     24x7
+        host_notification_period        24x7
+        service_notification_options    w,u,c,r,f,s
+        host_notification_options       d,u,r,f,s
+        service_notification_commands   notify-service-by-email
+        host_notification_commands      notify-host-by-email
+        email                           sisindri.m@vupadhi.com
+        }
+
+Hosts:
+D = Down,U = UP,R = Recovery,F = Flapping,S = Scheduled Downtime
+Services:
+W = Warning,U = Unknown,C = Critical,R = Recovery,F = Flapping,S = Scheduled Downtime,N=null
+################
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg --check errors
+windows host:
+
+NS client++ install 

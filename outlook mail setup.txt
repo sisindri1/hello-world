@@ -1,0 +1,15 @@
+
+mail setup -outlook
+1.mail setings
+2.imap/pop3/http
+3.imap.one.com
+4.send.one.com
+5.sender -ssl -993
+6.reciver -smtp -465 -outgoing mail server
+7.root folder path -inbox
+IMAP uses port 143, but SSL/TLS encrypted IMAP uses port 993.
+POP uses port 110, but SSL/TLS encrypted POP uses port 995.
+SMTP uses port 25, but SSL/TLS encrypted SMTP uses port 465.
+
+
+curl ifconfig.me && echo ---for public ip in linux

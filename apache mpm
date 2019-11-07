@@ -1,0 +1,10 @@
+apache
+
+----------------------
+Change which MPM is in use
+
+On CentOS7, this is now controlled in a config file named /etc/httpd/conf.modules.d/00-mpm.conf. It's a short file, and only one LoadModule should be uncommented at any time.
+
+LoadModule mpm_worker_module modules/mod_mpm_worker.so
+
+A service restart is required post-change to activate the desired MPM.

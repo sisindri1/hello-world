@@ -1,0 +1,32 @@
+ts-logs
+cp /var/log/httpd/ts_auction_access_log_web2   /appdata/Apache-logs/ts_auction_access_log-20191004
+
+
+ls /appdata/Apache-logs/
+  867  ls /var/log/httpd/
+  868  cp /var/log/httpd/access_log-201909*   /appdata/Apache-logs/
+  869  cp /var/log/httpd/ts_tender_web1_access_log-201909*  /appdata/Apache-logs/
+  870  ls /appdata/Apache-logs/
+  871  cp /var/log/httpd/access_log    /appdata/Apache-logs/access_log-20191004
+  872  cp /var/log/httpd/ts_tender_web1_access_log     /appdata/Apache-logs/ts_tender_web1_access_log-20191004
+  873  cp /var/log/httpd/access_log-201909*   /appdata/Apache-logs/
+  874  cd /appdata/Apache-logs/
+  875  goaccess -p /etc/goaccess.conf -f access_log-2019098 -a > eprocurement.telangana.gov.in-WEB-REPORTS-08-Sep-2019.html
+  876  goaccess -p /etc/goaccess.conf -f access_log-20190908 -a > eprocurement.telangana.gov.in-WEB-REPORTS-08-Sep-2019.html
+  877  goaccess -p /etc/goaccess.conf -f access_log-20190915 -a > eprocurement.telangana.gov.in-WEB-REPORTS-15-Sep-2019.html
+  878  goaccess -p /etc/goaccess.conf -f access_log-20190922 -a > eprocurement.telangana.gov.in-WEB-REPORTS-22-Sep-2019.html
+  879  goaccess -p /etc/goaccess.conf -f access_log-20190929 -a > eprocurement.telangana.gov.in-WEB-REPORTS-29-Sep-2019.html
+  880  goaccess -p /etc/goaccess.conf -f access_log-20191004 -a > eprocurement.telangana.gov.in-WEB-REPORTS-04-Oct-2019.html
+  881  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190908 -a > eprocurement.telangana.gov.in-WEB-REPORTS-08-Sep-2019.html
+  882  goaccess -p /etc/goaccess.conf -f access_log-20190908 -a > eprocurement.telangana.gov.in-WEB-REPORTS-08-Sep-2019.html
+  883  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190908 -a > tender.telangana.gov.in-WEB-REPORTS-08-Sep-2019.html
+  884  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190915 -a > tender.telangana.gov.in-WEB-REPORTS-15-Sep-2019.html
+  885  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190922 -a > tender.telangana.gov.in-WEB-REPORTS-22-Sep-2019.html
+
+dEAR SIR,
+
+We handovered one laptop (HP Compaq) from vijaywada location and it has some physical Damage.After enquired iwth service center they said that 1500 rupess is the service charge.
+WE need your approval to proceed further
+
+We Received one Physically damaged laptop (HP Compaq) from vijaywada location.After enquired with service centers,they said that 1500 rupess is service charge to repair.
+We need your approval to proceed further.

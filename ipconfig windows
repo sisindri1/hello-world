@@ -1,1 +1,5 @@
 C:\Users\vts\AppData\Local\Microsoft\Outlook
+
+ipconfig/release
+ipconfig/renew
+netsh winsock reset

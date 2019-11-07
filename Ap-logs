@@ -1,0 +1,22 @@
+ls /appdata/Apache-logs/
+  944  ls /var/log/httpd/
+  945  cp /var/log/httpd/access_log  /appdata/Apache-logs/access_log-20191005
+  946  cp /var/log/httpd/konugolu_access_log    /appdata/Apache-logs/konugolu_access_log-20191005
+  947  cp /var/log/httpd/tender_access_log   /appdata/Apache-logs/tender_access_log-20191005
+  948  cd /appdata/Apache-logs/
+  949  goaccess -p /etc/goaccess.conf -f access_log-20190908 -a > Ap-E-Procurement.gov.in-WEB-REPORTS-08-Sep-2019.html
+  950  goaccess -p /etc/goaccess.conf -f access_log-20190916 -a > Ap-E-Procurement.gov.in-WEB-REPORTS-16-Sep-2019.html
+  951  goaccess -p /etc/goaccess.conf -f access_log-20190922 -a > Ap-E-Procurement.gov.in-WEB-REPORTS-22-Sep-2019.html
+  952  goaccess -p /etc/goaccess.conf -f access_log-20190929 -a > Ap-E-Procurement.gov.in-WEB-REPORTS-29-Sep-2019.html
+  953  goaccess -p /etc/goaccess.conf -f access_log-20191005 -a > Ap-E-Procurement.gov.in-WEB-REPORTS-05-Oct-2019.html
+  954  goaccess -p /etc/goaccess.conf -f tender_access_log-20191005 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-05-Oct-2019.html
+  955  goaccess -p /etc/goaccess.conf -f tender_access_log-20190929 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-29-Sep-2019.html
+  956  goaccess -p /etc/goaccess.conf -f tender_access_log-2019092 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-22-Sep-2019.html
+  957  goaccess -p /etc/goaccess.conf -f tender_access_log-20190922 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-22-Sep-2019.html
+  958  goaccess -p /etc/goaccess.conf -f tender_access_log-20190916 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-16-Sep-2019.html
+  959  goaccess -p /etc/goaccess.conf -f tender_access_log-20190908 -a > tender.Ap-E-Procurement.gov.in-WEB-REPORTS-08-Sep-2019.html
+  960  goaccess -p /etc/goaccess.conf -f konugolu_access_log-20190908 -a > konugolu.gov.in-WEB-REPORTS-08-Sep-2019.html
+  961  goaccess -p /etc/goaccess.conf -f konugolu_access_log-20190916 -a > konugolu.gov.in-WEB-REPORTS-16-Sep-2019.html
+  962  goaccess -p /etc/goaccess.conf -f konugolu_access_log-20190922 -a > konugolu.gov.in-WEB-REPORTS-22-Sep-2019.html
+  963  goaccess -p /etc/goaccess.conf -f konugolu_access_log-20190929 -a > konugolu.gov.in-WEB-REPORTS-29-Sep-2019.html
+  964  goaccess -p /etc/goaccess.conf -f konugolu_access_log-20191005 -a > konugolu.gov.in-WEB-REPORTS-05-Oct-2019.html

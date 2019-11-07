@@ -84,10 +84,24 @@ exportfs  -auv
 vi /usr/lib/etab and vi /usr/lib/rmtab
 add firewall
 
+Package : nfs-utils
+ Daemons : rpc.nfsd, rpc.mountd, rpc.statd, rpc.lockd, rpc.rquotad
+ Script : /etc/init.d/nfs
+ Port number : 2049
+ Configuration File : /etc/exports
+ Other imp files : /var/lib/nfs/etab, /var/lib/nfs/rmtab
+
 --------
 on client side
 showmount -e ipaddress
 create dir
 mount -t nfs4 ipaddress:/dir /directory
+
+*********************************************************************
+export PS1="\s-\v$ "  for console
+
+export HISTTIMEFORMAT="%d/%m/%y %H:%M " --- for time stamp in history
+
+
 
 

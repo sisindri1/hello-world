@@ -23,3 +23,289 @@ W = Warning,U = Unknown,C = Critical,R = Recovery,F = Flapping,S = Scheduled Dow
 windows host:
 
 NS client++ install 
+check_nt plugin for monitoring windows serives
+##commands.cfg and templates.cfg are used to add services-------/usr/local/nagios/etc/objects
+NRPE Plugin for remote linux monitoring
+
+cd /usr/local/nagios/etc/servers---------------------
+# Define a NRPE services
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     CPU Load
+        check_command           check_nrpe!check_load
+        }
+
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Total Processes
+        check_command           check_nrpe!check_total_procs
+        }
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Current Users
+        check_command           check_nrpe!check_users
+        }
+#define service{
+#        use                     generic-service
+#        host_name               IP-227
+#        service_description     SSH Monitoring
+#        check_command           check_nrpe!check_ssh
+#        }
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Current Login Users
+        check_command           check_nrpe!check_login_users
+}
+define service{
+use                     generic-service,srv-pnp
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Uptime
+        check_command           check_nrpe!check_uptime
+        }
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Check Swap Free Space
+        check_command           check_nrpe!check_swap
+}
+
+define service{
+        use                     generic-service
+        host_name               IP227,IP228,IP15,IP16,IP12,IP13,IP14
+#,IP142,IP143,IP150,IP144,IP145,IP146,IP147,IP148
+        service_description     Check Root Free Space
+        check_command           check_nrpe!check_hda1
+}
+#define service{
+#        use                     generic-service,srv-pnp
+#        host_name               IP124
+#        service_description     Check Auctiondata Free Space
+#        check_command           check_nrpe!check_auctiondata
+#}
+
+#define service{
+#        use                     generic-service,srv-pnp
+#        host_name               IP124
+#        service_description     Check JVM
+#        check_command           check_nrpe!check_jvm
+#}
+#define service{
+#        use                     generic-service,srv-pnp
+
+#        use                     generic-service,srv-pnp
+#        host_name               Mseva2-web1-IP31,Mseva2-web2-IP32,Mseva2-web3-IP123,Mseva2-web4-IP124
+#        service_description     Apache Log drive Free Space
+#        check_command           check_nrpe!check_apache_log
+#       }
+
+define service{
+        use                             generic-service,srv-pnp
+        host_name                       IP15,IP16
+#,IP142,IP143
+        service_description             HTTP
+        check_command                   check_http
+        notifications_enabled           0
+        }
+
+define service{
+        use                             generic-service,srv-pnp
+        host_name                       IP15,IP16
+        service_description             HTTPS
+        check_command                   check_https
+        notifications_enabled           0
+        }
+
+define service{
+        use                     generic-service
+        host_name               IP12
+        service_description     Check_jmx
+        check_command           check_nrpe!check_jmx
+}
+
+define service {
+   use                  generic-service
+   host_name            IP12
+   service_description  Tomcat threads count
+   check_command        check_nrpe!tomcat_threads
+ }
+
+define service {
+   use                  generic-service
+   host_name            IP12
+   service_description  Tomcat loaded classes count
+   check_command        check_nrpe!tomcat_classes
+ }
+ define service {
+   use                  generic-service
+   host_name            IP12
+   service_description  Tomcat heap memory used
+   check_command        check_nrpe!tomcat_heap
+ }
+ define service {
+   use                  generic-service
+   host_name            IP12
+   service_description  Tomcat non-heap memory used
+   check_command        check_nrpe!tomcat_nonheap
+ }
+ define service {
+   use                  generic-service
+   host_name            IP12
+   service_description  Tomcat total active sessions
+   check_command        check_nrpe!tomcat_sessions
+ }
+
+************************************************************
+windows-services.cfg
+-------
+define service {
+    host_name               IP10,IP11
+#,IP141
+    service_description     CPU Usage
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M cpu/percent -w 60 -c 80 -q 'aggregate=avg'
+    max_check_attempts      5
+    check_interval          5
+    retry_interval          1
+    check_period            24x7
+    notification_interval   60
+    notification_period     24x7
+    contacts                nagiosadmin
+    register                1
+}
+
+define service {
+    host_name               IP10,IP11
+#,IP141
+    service_description     Memory Usage
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M memory/virtual -w 60 -c 80 -u G
+    max_check_attempts      5
+    check_interval          5
+    retry_interval          1
+    check_period            24x7
+    notification_interval   60
+    notification_period     24x7
+    contacts                nagiosadmin
+    register                1
+}
+
+define service {
+    host_name               IP10,IP11
+#,IP141
+    service_description     Process Count
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M processes -w 150 -c 200
+    max_check_attempts      5
+    check_interval          5
+retry_interval          1
+    check_period            24x7
+    notification_interval   60
+    notification_period     24x7
+    contacts                nagiosadmin
+    register                1
+}
+
+define service {
+    host_name               IP10,IP11
+#,IP141
+    service_description     Process Count
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M processes -w 150 -c 200
+    max_check_attempts      5
+    check_interval          5
+    retry_interval          1
+    check_period            24x7
+    notification_interval   60
+    notification_period     24x7
+    contacts                nagiosadmin
+    register                1
+}
+
+define service{
+    use                     generic-service,srv-pnp
+    host_name               IP10,IP11
+#,IP141
+    service_description     System UP Time
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M system/uptime
+    max_check_attempts      5
+    check_interval          5
+    retry_interval          1
+    check_period            24x7
+    notification_interval   60
+    notification_period     24x7
+    contacts                nagiosadmin
+    register                1
+
+define service{
+        use                     generic-service
+        host_name               IP10,IP11
+#,IP141
+        service_description     System Error Check
+        check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M 'logs' -q 'name=system,severity=ERROR' --warning 3 --critical 5
+}
+
+define service{
+        use                     generic-service
+        host_name               IP10,IP11
+#,IP141
+        service_description     Application Error Check
+        check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M 'logs' -q 'name=application,severity=ERROR' --warning 3 --critical 5
+}
+
+
+define service{
+        use                     generic-service
+        host_name               IP10,IP11
+#,IP141
+        service_description     Sql service check
+        check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M 'services' -q 'service=MSSQLSERVER,status=running'
+}
+
+
+define service{
+        use                     generic-service
+        host_name               IP10,IP11
+#,IP141
+        service_description     C Disk Used
+        check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M 'api/disk/logical/C:|/used_percent' --warning 80 --critical 90
+----------------------------------------------------------------------
+host.cfg--------
+------------------------
+define host{
+use                             linux-server
+host_name                       IP12
+alias                           IP12
+address                         10.10.6.12
+max_check_attempts              5
+check_period                    24x7
+notification_interval           30
+notification_period             24x7
+icon_image              redhat.png
+statusmap_image         redhat.png
+}
+---------------------------------------
+windows host.cfg
+--------------
+efine host {
+    host_name               IP10
+    address                 10.10.6.10
+    check_command           check_ncpa!-t 'vts-eproc' -P 5693 -M system/agent_version
+    max_check_attempts      5
+    check_interval          5
+    retry_interval          1
+    check_period            24x7
+    contacts                nagiosadmin
+    notification_interval   60
+    notification_period     24x7
+    notifications_enabled   1
+    icon_image              windows_server.png
+    statusmap_image         windows_server.png
+    register                1
+}
+-------------------------

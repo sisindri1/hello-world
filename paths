@@ -102,6 +102,11 @@ export PS1="\s-\v$ "  for console
 
 export HISTTIMEFORMAT="%d/%m/%y %H:%M " --- for time stamp in history
 
+***************************************
+shell change in linux-------
+chsh -s shell name
+usermod --shell /bin/bash tecmint
+
 
 
 

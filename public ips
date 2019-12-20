@@ -1,0 +1,11 @@
+telangana:
+public ips:
+ auction.telangana.gov.in [103.122.128.101]
+ tender.telangana.gov.in [103.122.128.100]
+ eprocurement.telangana.gov.in [103.122.128.100]
+ 
+ AP:
+ public ips:
+  tender.apeprocurement.gov.in [118.185.110.97]
+  konugolu.ap.gov.in [125.21.84.204]
+  apeprocurement.gov.in [125.21.84.204]

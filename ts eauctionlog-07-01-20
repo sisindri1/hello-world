@@ -1,0 +1,126 @@
+[DEBUG] [2020-01-07 10:42:17.136] [LoginController] - Method - showForm - start
+[INFO ] [2020-01-07 10:42:17.146] [AuctionServiceImpl] - Method - getAllRunningAuctions - start
+[DEBUG] [2020-01-07 10:42:17.217] [AuctionDaoImpl] - Method - getAllRunningAuctions - start
+[INFO ] [2020-01-07 10:42:17.221] [AuctionDaoImpl] - All Running Auctions are loading
+[INFO ] [2020-01-07 10:42:17.321] [AuctionDaoImpl] - All Running Auctions Failed to load 
+[DEBUG] [2020-01-07 10:42:17.344] [AuctionDaoImpl] - Method - getAllRunningAuctions - end
+[INFO ] [2020-01-07 10:42:17.359] [AuctionServiceImpl] - Method - getAllRunningAuctions - End
+[INFO ] [2020-01-07 10:42:17.497] [AuctionServiceImpl] - Method - getAllUpcommingAuctions - start
+[DEBUG] [2020-01-07 10:42:17.530] [AuctionDaoImpl] - Method - getAllUpcommingAuctions - start
+[INFO ] [2020-01-07 10:42:17.551] [AuctionDaoImpl] - All UpComming Auctions are loading
+[INFO ] [2020-01-07 10:42:17.637] [AuctionDaoImpl] - All UpComming Auctions are loaded Successfully
+[DEBUG] [2020-01-07 10:42:17.645] [AuctionDaoImpl] - Method - getAllUpcommingAuctions - end
+[INFO ] [2020-01-07 10:42:17.686] [AuctionServiceImpl] - Method - getAllUpcommingAuctions - End
+[INFO ] [2020-01-07 10:42:17.725] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:17.749] [AdminDAOImpl] - Method - getDeptName - End
+[DEBUG] [2020-01-07 10:42:17.763] [CorrigendumServiceImpl] - Method - getApprovedCorrigendum - start
+[DEBUG] [2020-01-07 10:42:17.797] [CorrigendumDaoImpl] - Method - getApprovedCorrigendum - start
+[INFO ] [2020-01-07 10:42:17.801] [CorrigendumDaoImpl] - All Approved Corrigendum Auctions are loading
+[INFO ] [2020-01-07 10:42:18.114] [CorrigendumDaoImpl] - All Approved Corrigendum  Auctions are loaded Successfully
+[DEBUG] [2020-01-07 10:42:18.117] [CorrigendumDaoImpl] - Method - getApprovedCorrigendum - end
+[DEBUG] [2020-01-07 10:42:18.151] [CorrigendumServiceImpl] - Method - getApprovedCorrigendum - end
+[INFO ] [2020-01-07 10:42:18.381] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:18.401] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:18.661] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:18.694] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:18.894] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:18.916] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:19.086] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:19.107] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:19.224] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:19.236] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:19.249] [AuctionServiceImpl] - Method - getScrolldetail - start
+[DEBUG] [2020-01-07 10:42:19.308] [AuctionDaoImpl] - Method - getScrolldetail - Start
+[INFO ] [2020-01-07 10:42:19.332] [AuctionDaoImpl] - Scrolling Details are loaded Successfully
+[INFO ] [2020-01-07 10:42:19.335] [AuctionDaoImpl] - bean : 1
+[DEBUG] [2020-01-07 10:42:19.339] [AuctionDaoImpl] - Method - getScrolldetail - End
+[INFO ] [2020-01-07 10:42:19.357] [AuctionServiceImpl] - Method - getScrolldetail - end
+[INFO ] [2020-01-07 10:42:19.360] [AdminServiceImpl] - Method - geteventLink - start
+[INFO ] [2020-01-07 10:42:19.437] [AdminDAOImpl] - Method - geteventLink - Start
+[DEBUG] [2020-01-07 10:42:19.490] [AdminDAOImpl] - Event Links are loaded Successfully
+[INFO ] [2020-01-07 10:42:19.494] [AdminDAOImpl] - Method - geteventLink - End
+[DEBUG] [2020-01-07 10:42:19.513] [AdminServiceImpl] - All Event List size :13
+[INFO ] [2020-01-07 10:42:19.516] [AdminServiceImpl] - Method - geteventLink - end
+[INFO ] [2020-01-07 10:42:19.521] [AuctionServiceImpl] - Method - getAllHighlightsdetails - start
+[INFO ] [2020-01-07 10:42:19.612] [AuctionDaoImpl] - HighLight Details are loaded Successfully
+[INFO ] [2020-01-07 10:42:19.616] [AuctionDaoImpl] - bean : [com.vaannila.Auction.Model.HighlightsDetailsBean@726cc5af]
+[INFO ] [2020-01-07 10:42:19.632] [AuctionServiceImpl] - Method - getAllHighlightsdetails - end
+[DEBUG] [2020-01-07 10:42:19.636] [LoginController] - Method - showForm - end
+[DEBUG] [2020-01-07 10:42:48.637] [LoginController] - Method - showForm - start
+[INFO ] [2020-01-07 10:42:48.639] [AuctionServiceImpl] - Method - getAllRunningAuctions - start
+[DEBUG] [2020-01-07 10:42:48.703] [AuctionDaoImpl] - Method - getAllRunningAuctions - start
+[INFO ] [2020-01-07 10:42:48.707] [AuctionDaoImpl] - All Running Auctions are loading
+[INFO ] [2020-01-07 10:42:48.809] [AuctionDaoImpl] - All Running Auctions Failed to load 
+[DEBUG] [2020-01-07 10:42:48.819] [AuctionDaoImpl] - Method - getAllRunningAuctions - end
+[INFO ] [2020-01-07 10:42:48.840] [AuctionServiceImpl] - Method - getAllRunningAuctions - End
+[INFO ] [2020-01-07 10:42:48.946] [AuctionServiceImpl] - Method - getAllUpcommingAuctions - start
+[DEBUG] [2020-01-07 10:42:48.987] [AuctionDaoImpl] - Method - getAllUpcommingAuctions - start
+[INFO ] [2020-01-07 10:42:48.990] [AuctionDaoImpl] - All UpComming Auctions are loading
+[INFO ] [2020-01-07 10:42:49.021] [AuctionDaoImpl] - All UpComming Auctions are loaded Successfully
+[DEBUG] [2020-01-07 10:42:49.024] [AuctionDaoImpl] - Method - getAllUpcommingAuctions - end
+[INFO ] [2020-01-07 10:42:49.030] [AuctionServiceImpl] - Method - getAllUpcommingAuctions - End
+[INFO ] [2020-01-07 10:42:49.046] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.055] [AdminDAOImpl] - Method - getDeptName - End
+[DEBUG] [2020-01-07 10:42:49.060] [CorrigendumServiceImpl] - Method - getApprovedCorrigendum - start
+[DEBUG] [2020-01-07 10:42:49.077] [CorrigendumDaoImpl] - Method - getApprovedCorrigendum - start
+[INFO ] [2020-01-07 10:42:49.080] [CorrigendumDaoImpl] - All Approved Corrigendum Auctions are loading
+[INFO ] [2020-01-07 10:42:49.201] [CorrigendumDaoImpl] - All Approved Corrigendum  Auctions are loaded Successfully
+[DEBUG] [2020-01-07 10:42:49.205] [CorrigendumDaoImpl] - Method - getApprovedCorrigendum - end
+[DEBUG] [2020-01-07 10:42:49.213] [CorrigendumServiceImpl] - Method - getApprovedCorrigendum - end
+[INFO ] [2020-01-07 10:42:49.269] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.274] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:49.337] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.345] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:49.403] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.409] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:49.459] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.464] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:49.533] [AdminDAOImpl] - Method - getDeptName - Start
+[INFO ] [2020-01-07 10:42:49.538] [AdminDAOImpl] - Method - getDeptName - End
+[INFO ] [2020-01-07 10:42:49.546] [AuctionServiceImpl] - Method - getScrolldetail - start
+[DEBUG] [2020-01-07 10:42:49.574] [AuctionDaoImpl] - Method - getScrolldetail - Start
+[INFO ] [2020-01-07 10:42:49.582] [AuctionDaoImpl] - Scrolling Details are loaded Successfully
+[INFO ] [2020-01-07 10:42:49.603] [AuctionDaoImpl] - bean : 1
+[DEBUG] [2020-01-07 10:42:49.606] [AuctionDaoImpl] - Method - getScrolldetail - End
+[INFO ] [2020-01-07 10:42:49.612] [AuctionServiceImpl] - Method - getScrolldetail - end
+[INFO ] [2020-01-07 10:42:49.615] [AdminServiceImpl] - Method - geteventLink - start
+[INFO ] [2020-01-07 10:42:49.643] [AdminDAOImpl] - Method - geteventLink - Start
+[DEBUG] [2020-01-07 10:42:49.651] [AdminDAOImpl] - Event Links are loaded Successfully
+[INFO ] [2020-01-07 10:42:49.654] [AdminDAOImpl] - Method - geteventLink - End
+[DEBUG] [2020-01-07 10:42:49.659] [AdminServiceImpl] - All Event List size :13
+[INFO ] [2020-01-07 10:42:49.663] [AdminServiceImpl] - Method - geteventLink - end
+[INFO ] [2020-01-07 10:42:49.666] [AuctionServiceImpl] - Method - getAllHighlightsdetails - start
+[INFO ] [2020-01-07 10:42:49.701] [AuctionDaoImpl] - HighLight Details are loaded Successfully
+[INFO ] [2020-01-07 10:42:49.705] [AuctionDaoImpl] - bean : [com.vaannila.Auction.Model.HighlightsDetailsBean@3fed9b2d]
+[INFO ] [2020-01-07 10:42:49.713] [AuctionServiceImpl] - Method - getAllHighlightsdetails - end
+[DEBUG] [2020-01-07 10:42:49.716] [LoginController] - Method - showForm - end
+[INFO ] [2020-01-07 10:42:59.280] [ViewDaoImpl] - Method - getAuction - start
+[INFO ] [2020-01-07 10:42:59.307] [ViewDaoImpl] - Method - getAuction - end
+[INFO ] [2020-01-07 10:42:59.338] [ViewDaoImpl] - Method - getAuctionInvitedVendorsList - start
+[DEBUG] [2020-01-07 10:42:59.369] [ViewDaoImpl] - auctionInvitedVendorsList : []
+[DEBUG] [2020-01-07 10:42:59.391] [ViewDaoImpl] - auctionInvitedVendorsList.size() : 0
+[INFO ] [2020-01-07 10:42:59.413] [ViewDaoImpl] - Method - getAuctionInvitedVendorsList - end
+[INFO ] [2020-01-07 10:42:59.449] [ViewDaoImpl] - Method - getAuctionItemsList - start
+[INFO ] [2020-01-07 10:42:59.493] [ViewDaoImpl] - Method - getAuctionItemsList - end
+[INFO ] [2020-01-07 10:42:59.700] [ViewDaoImpl] - Method - getAuctionItemsList - end
+[INFO ] [2020-01-07 10:42:59.713] [ViewController] - priceTempId :3
+[INFO ] [2020-01-07 10:42:59.720] [ViewController] - priceTempId :3
+[INFO ] [2020-01-07 10:42:59.740] [ViewDaoImpl] - Method - getAuctionDocumentList - start
+[DEBUG] [2020-01-07 10:42:59.749] [ViewDaoImpl] - auctionDocumentList : []
+[DEBUG] [2020-01-07 10:42:59.752] [ViewDaoImpl] - auctionDocumentList.size() : 0
+[INFO ] [2020-01-07 10:42:59.755] [ViewDaoImpl] - Method - getAuctionDocumentList - end
+[INFO ] [2020-01-07 10:42:59.762] [ProfileServiceImpl] - Method - getUserDetailsById -Start 
+[INFO ] [2020-01-07 10:42:59.765] [ProfileServiceImpl] - Method - getUserDetailsById -End 
+[INFO ] [2020-01-07 10:42:59.814] [UserCreationDAOImpl] - METHOD - getDeptNameByDeptId -START
+[INFO ] [2020-01-07 10:42:59.827] [UserCreationDAOImpl] - METHOD - getDeptNameByDeptId -END
+[INFO ] [2020-01-07 10:42:59.848] [UserCreationDAOImpl] - METHOD - getDeptNameByDeptId -START
+[INFO ] [2020-01-07 10:42:59.856] [UserCreationDAOImpl] - METHOD - getDeptNameByDeptId -END
+[INFO ] [2020-01-07 10:42:59.899] [UserCreationDAOImpl] - METHOD - getOfficeData -START
+[INFO ] [2020-01-07 10:42:59.914] [UserCreationDAOImpl] - METHOD - getOfficeData -END
+[INFO ] [2020-01-07 10:42:59.943] [UserCreationDAOImpl] - METHOD - getCircleDetailsByOfficeAndDeptID -START
+[INFO ] [2020-01-07 10:42:59.953] [UserCreationDAOImpl] - METHOD - getCircleDetailsByOfficeAndDeptID -END
+[DEBUG] [2020-01-07 10:43:00.012] [AuctionDaoImpl] - Method - getAuctionSignedDatesString - Start
+[DEBUG] [2020-01-07 10:43:00.081] [AuctionDaoImpl] - Method - getAuctionSignedDatesString - End
+[DEBUG] [2020-01-07 10:43:00.168] [AuctionDaoImpl] - Method - getAuctionSignedDatesString - Start
+[DEBUG] [2020-01-07 10:43:00.178] [AuctionDaoImpl] - Method - getAuctionSignedDatesString - End
+[INFO ] [2020-01-07 10:43:00.190] [ViewController] - Method - displayView - end

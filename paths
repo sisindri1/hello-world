@@ -43,6 +43,8 @@ to clear page cache
  to clear page cache,dentries and indoes run
  #sync; echo 3 > /proc/sys/vm/drop_caches ------ # sysctl -w vm.drop_caches=3
  
+ 
+ 
 *********************************************************************************
 
 find mac address 
@@ -107,6 +109,14 @@ shell change in linux-------
 chsh -s shell name
 usermod --shell /bin/bash tecmint
 
+********************************************************************
+
+Disable usb port in windows through registry editor 
+ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR
+ start - 3 is enable
+       - 4 is disable
 
 
 
+
+/etc/vsftpd.userlist

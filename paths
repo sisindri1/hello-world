@@ -115,8 +115,21 @@ Disable usb port in windows through registry editor
  HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR
  start - 3 is enable
        - 4 is disable
-
-
-
-
-/etc/vsftpd.userlist
+***********************************************
+samba configuration
+1.yum install samba* -y
+2.create a directiry and give full permission
+3.change context security polict
+ls -ldZ chcon_t_samba /directory name
+4.add sambauser and passwd by
+smbpasswd -a sisi ---to add
+smbpasswd  -x sisi ---to remove
+5.pdbedit -L --to check added user
+6.vi /etc/samba/smb.conf --edit files for permssions
+7./testparm
+8.service smb restart
+9.service nmb restart
+10.findsmb --how many samba servers
+11.smbclient -L //ipaddress
+\\DESKTOP-AH2K42B\share
+smbclient //DESKTOP-AH2K42B/share -U sisindri --to access windows share from linux

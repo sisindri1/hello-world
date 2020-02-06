@@ -131,5 +131,7 @@ smbpasswd  -x sisi ---to remove
 9.service nmb restart
 10.findsmb --how many samba servers
 11.smbclient -L //ipaddress
+12.smbclient //ipaddress/sharename -U user name
+13.mount -t cifs //ipadress/share /mnt -o user=username
 \\DESKTOP-AH2K42B\share
 smbclient //DESKTOP-AH2K42B/share -U sisindri --to access windows share from linux

@@ -1,0 +1,27 @@
+mail settings:
+
+1.itserveglobal
+
+incoming-mail.itserveglobal.com
+outgoing-mail.itserveglobal.com
+incoming-ssl/tls- 993 (imap)
+       -995  (pop3)
+outgoing-465
+incoming-non-ssl -143(imap) or 110(pop3)
+outgoing -587
+
+2.heyhelp.in	
+
+incomig -mail.heyhelp.in (non-ssl)	
+outgoing -mail.heyhelp.in (non-ssl)
+
+incoming- sg2plcpnl0103.prod.sin2.secureserver.net (ssl)
+outgoing -sg2plcpnl0103.prod.sin2.secureserver.net (ssl)
+
+incoming-ssl/tls- 993 (imap)
+       -995  (pop3)
+outgoing-465
+incoming-non-ssl -143(imap) or 110(pop3)
+outgoing -587
+
+3.sreema.in

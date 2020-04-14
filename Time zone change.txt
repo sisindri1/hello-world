@@ -1,0 +1,24 @@
+systemctl status chrony
+timedatectl --for time and date
+sudo yum install chrony
+sudo service chronyd restart
+sudo chkconfig chronyd on
+chronyc sources -v ---- in this line with *^ indicates active time zone
+chronyc tracking
+
+To change the time zone on an instance:
+cd /usr/share/zoneinfo
+edit the below  file
+vi /etc/sysconfig/clock
+in that above path change zone equal to localzone
+and create symbolic link withe below command.
+sudo ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+reboot the machine.
+
+*************************************************************
+timedatectl set-time YYYY-MM-DD
+timedatectl set-time '2015-12-01'
+timedatectl set-time YYYY-MM-DD HH:MM:SS
+timedatectl list-timezones
+timedatectl set-timezone 'Asia/Kolkata'
+timedatectl set-ntp yes

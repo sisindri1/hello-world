@@ -23,10 +23,8 @@ ls /appdata/Apache-logs/
   884  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190915 -a > tender.telangana.gov.in-WEB-REPORTS-15-Sep-2019.html
   885  goaccess -p /etc/goaccess.conf -f ts_tender_web1_access_log-20190922 -a > tender.telangana.gov.in-WEB-REPORTS-22-Sep-2019.html
 
-dEAR SIR,
 
-We handovered one laptop (HP Compaq) from vijaywada location and it has some physical Damage.After enquired iwth service center they said that 1500 rupess is the service charge.
-WE need your approval to proceed further
+when delete any large file to free upspace by using truncating
 
-We Received one Physically damaged laptop (HP Compaq) from vijaywada location.After enquired with service centers,they said that 1500 rupess is service charge to repair.
-We need your approval to proceed further.
+lsof |grep deleted
+:>/proc/$pid/fd/$fd

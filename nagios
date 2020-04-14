@@ -20,3 +20,5 @@ move different files from different foldes to one file in linux
 
 https://cloud.google.com/products/calculator/#id=9927487e-a616-4197-ba8c-6c42dcd2e766
 
+/etc/init.d/nscd restart -restart linux dns service
+nscd -name service cache daemon
